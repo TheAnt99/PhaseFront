@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Phasefront.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Phasefront.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PhasefrontEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Phasefront">
+      <UniqueIdentifier>{CC1C0BCC-22D7-3910-94CD-F519CAF7375D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Phasefront\Phasefront.Build.cs">
+      <Filter>Source\Phasefront</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Phasefront\Phasefront.cpp">
+      <Filter>Source\Phasefront</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Phasefront.h">
+      <Filter>Source\Phasefront</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\PhasefrontCharacter.cpp">
+      <Filter>Source\Phasefront</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\PhasefrontCharacter.h">
+      <Filter>Source\Phasefront</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\PhasefrontGameMode.cpp">
+      <Filter>Source\Phasefront</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\PhasefrontGameMode.h">
+      <Filter>Source\Phasefront</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\PhasefrontPlayerController.cpp">
+      <Filter>Source\Phasefront</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\PhasefrontPlayerController.h">
+      <Filter>Source\Phasefront</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Combat">
+      <UniqueIdentifier>{78DB5EFA-3B83-349A-AD27-06987B3F0504}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\CombatCharacter.cpp">
+      <Filter>Source\Phasefront\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\CombatCharacter.h">
+      <Filter>Source\Phasefront\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\CombatGameMode.cpp">
+      <Filter>Source\Phasefront\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\CombatGameMode.h">
+      <Filter>Source\Phasefront\Variant_Combat</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\CombatPlayerController.cpp">
+      <Filter>Source\Phasefront\Variant_Combat</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\CombatPlayerController.h">
+      <Filter>Source\Phasefront\Variant_Combat</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Combat\AI">
+      <UniqueIdentifier>{68ADE61E-DC5C-3708-AB83-746BE10D9259}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatAIController.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatAIController.h">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatEnemy.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatEnemy.h">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatEnemySpawner.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatEnemySpawner.h">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatStateTreeUtility.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\AI\CombatStateTreeUtility.h">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\AI\EnvQueryContext_Player.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\AI\EnvQueryContext_Player.h">
+      <Filter>Source\Phasefront\Variant_Combat\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Combat\Animation">
+      <UniqueIdentifier>{2F38CF36-8BBC-344B-96D0-A403D113D20A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Animation\AnimNotify_CheckChargedAttack.h">
+      <Filter>Source\Phasefront\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Animation\AnimNotify_CheckCombo.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Animation\AnimNotify_CheckCombo.h">
+      <Filter>Source\Phasefront\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Animation\AnimNotify_DoAttackTrace.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Animation\AnimNotify_DoAttackTrace.h">
+      <Filter>Source\Phasefront\Variant_Combat\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Combat\Gameplay">
+      <UniqueIdentifier>{C8043E49-4BDB-3B2A-98A8-336BF638B2AF}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatActivationVolume.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatActivationVolume.h">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatCheckpointVolume.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatCheckpointVolume.h">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatDamageableBox.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatDamageableBox.h">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatDummy.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatDummy.h">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatLavaFloor.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Gameplay\CombatLavaFloor.h">
+      <Filter>Source\Phasefront\Variant_Combat\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Combat\Interfaces">
+      <UniqueIdentifier>{37D04064-D642-36FC-B70F-C81FF01B995F}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Interfaces\CombatActivatable.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Interfaces\CombatActivatable.h">
+      <Filter>Source\Phasefront\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Interfaces\CombatAttacker.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Interfaces\CombatAttacker.h">
+      <Filter>Source\Phasefront\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\Interfaces\CombatDamageable.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\Interfaces\CombatDamageable.h">
+      <Filter>Source\Phasefront\Variant_Combat\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Combat\UI">
+      <UniqueIdentifier>{285D3DBB-7BEF-32A9-99D1-06E579FA34B7}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Combat\UI\CombatLifeBar.cpp">
+      <Filter>Source\Phasefront\Variant_Combat\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Combat\UI\CombatLifeBar.h">
+      <Filter>Source\Phasefront\Variant_Combat\UI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Platforming">
+      <UniqueIdentifier>{2A1231E5-B5D0-3104-8E29-ACD327289C15}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Platforming\PlatformingCharacter.cpp">
+      <Filter>Source\Phasefront\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Platforming\PlatformingCharacter.h">
+      <Filter>Source\Phasefront\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Platforming\PlatformingGameMode.cpp">
+      <Filter>Source\Phasefront\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Platforming\PlatformingGameMode.h">
+      <Filter>Source\Phasefront\Variant_Platforming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Platforming\PlatformingPlayerController.cpp">
+      <Filter>Source\Phasefront\Variant_Platforming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Platforming\PlatformingPlayerController.h">
+      <Filter>Source\Phasefront\Variant_Platforming</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_Platforming\Animation">
+      <UniqueIdentifier>{475A8F57-BD05-3234-854B-49C48CEE1845}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_Platforming\Animation\AnimNotify_EndDash.cpp">
+      <Filter>Source\Phasefront\Variant_Platforming\Animation</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_Platforming\Animation\AnimNotify_EndDash.h">
+      <Filter>Source\Phasefront\Variant_Platforming\Animation</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_SideScrolling">
+      <UniqueIdentifier>{40906BF4-5166-380A-8113-B7A199B65D5A}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingCameraManager.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingCameraManager.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingCharacter.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingCharacter.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingGameMode.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingGameMode.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingPlayerController.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\SideScrollingPlayerController.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_SideScrolling\AI">
+      <UniqueIdentifier>{D0DFD489-819D-3684-9136-558554333518}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\AI\SideScrollingAIController.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\AI\SideScrollingAIController.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\AI\SideScrollingNPC.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\AI\SideScrollingNPC.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\AI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\AI\SideScrollingStateTreeUtility.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\AI</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_SideScrolling\Gameplay">
+      <UniqueIdentifier>{44CC25A2-635F-38AE-92C6-D75C1DECECB0}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingJumpPad.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingMovingPlatform.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingPickup.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingPickup.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\Gameplay\SideScrollingSoftPlatform.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Gameplay</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_SideScrolling\Interfaces">
+      <UniqueIdentifier>{5CB8B93D-585B-3639-B4E8-E34DB9026659}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\Interfaces\SideScrollingInteractable.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Interfaces</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\Interfaces\SideScrollingInteractable.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\Interfaces</Filter>
+    </ClInclude>
+    <Filter Include="Source\Phasefront\Variant_SideScrolling\UI">
+      <UniqueIdentifier>{65BBCFD6-1EF3-34F1-9583-091B681B7E43}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Phasefront\Variant_SideScrolling\UI\SideScrollingUI.cpp">
+      <Filter>Source\Phasefront\Variant_SideScrolling\UI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Phasefront\Variant_SideScrolling\UI\SideScrollingUI.h">
+      <Filter>Source\Phasefront\Variant_SideScrolling\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
