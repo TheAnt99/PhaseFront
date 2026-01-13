@@ -1,0 +1,22 @@
+# Unreal Engine generated/temp files - NEVER commit
+/Binaries/
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# Visual Studio huge databases & temp
+/.vs/
+/.vscode/
+
+# Other Windows/IDE junk
+*.log
+*.suo
+*.user
+*.userprefs
+*.opensdf
+*.sdf
+*.ipch
+*.obj
+*.pch
+*.pdb
+*.mod
